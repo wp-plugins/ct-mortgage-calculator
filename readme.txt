@@ -17,6 +17,6 @@ A straightforward and simple mortgage calculator, featuring Sale Price, Interest
 == Installation ==
 
 1. Upload the /ct-mortgage-calculator/ folder to the /wp-content/plugins/ directory.
-2. Activate the CT Mortgage Calculator plugin through the “Plugins” menu in WordPress.
+2. Activate the CT Mortgage Calculator plugin through the "Plugins" menu in WordPress.
 3. Configure your settings via Appearance > Widgets > CT Mortgage Calculator.
-4. And you’re good to go!
+4. And you're good to go!
