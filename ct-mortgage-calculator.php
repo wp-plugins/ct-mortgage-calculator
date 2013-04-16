@@ -3,7 +3,7 @@
 Plugin Name: Contempo Mortgage Calculator Widget
 Plugin URI: http://contemporealestatethemes.com
 Description: A simple mortgage calculator widget
-Version: 1.0.0
+Version: 1.0.1
 Author: Chris Robinson
 Author URI: http://contemporealestatethemes.com
 */
@@ -56,7 +56,7 @@ class ct_MortgageCalculator extends WP_Widget {
                   <input type="text" name="mcTerm" id="mcTerm" class="text-input" value="<?php _e('Term (years)', 'contempo'); ?>" onfocus="if(this.value=='<?php _e('Term (years)', 'contempo'); ?>')this.value = '';" onblur="if(this.value=='')this.value = '<?php _e('Term (years)', 'contempo'); ?>';" />
                   <input type="text" name="mcDown" id="mcDown" class="text-input" value="<?php _e('Down payment ($)', 'contempo'); ?>" onfocus="if(this.value=='<?php _e('Down payment ($)', 'contempo'); ?>')this.value = '';" onblur="if(this.value=='')this.value = '<?php _e('Down payment ($)', 'contempo'); ?>';" />
                   
-                  <input class="btn marB10" type="submit" id="mortgageCalc" value="<?php _e('Calculate', 'contempo'); ?>" onclick="return false">
+                  <input class="btn" type="submit" id="mortgageCalc" value="<?php _e('Calculate', 'contempo'); ?>" onclick="return false">
                   <input class="btn reset" type="button" value="Reset" onClick="this.form.reset()" />
                   <input type="text" name="mcPayment" id="mcPayment" class="text-input" value="<?php _e('Your Monthly Payment', 'contempo'); ?>" />
                 </fieldset>
