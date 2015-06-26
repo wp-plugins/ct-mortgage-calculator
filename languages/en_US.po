@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Pro Real Estate 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-26 14:10-0800\n"
-"PO-Revision-Date: 2012-06-26 14:10-0800\n"
+"POT-Creation-Date: 2015-06-25 17:05-0800\n"
+"PO-Revision-Date: 2015-06-25 17:05-0800\n"
 "Last-Translator: Chris Robinson <chris@contempographicdesign.com>\n"
 "Language-Team: Contempo <chris@contempographicdesign.com>\n"
 "MIME-Version: 1.0\n"
@@ -15,35 +15,54 @@ msgstr ""
 "X-Poedit-Country: UNITED STATES\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: ct-mortgage-calculator.php:39
+#: ct-mortgage-calculator.php:37
 msgid "CT Mortgage Calculator"
 msgstr ""
 
-#: ct-mortgage-calculator.php:53
-msgid "Sale price ($)"
-msgstr ""
-
-#: ct-mortgage-calculator.php:54
-msgid "Interest Rate (%)"
-msgstr ""
-
 #: ct-mortgage-calculator.php:55
-msgid "Term (years)"
+msgid "Sale price"
 msgstr ""
 
 #: ct-mortgage-calculator.php:56
-msgid "Down payment ($)"
+#: ct-mortgage-calculator.php:99
+msgid "Interest Rate (%)"
+msgstr ""
+
+#: ct-mortgage-calculator.php:57
+#: ct-mortgage-calculator.php:100
+msgid "Term (years)"
 msgstr ""
 
 #: ct-mortgage-calculator.php:58
-msgid "Calculate"
+msgid "Down payment"
 msgstr ""
 
 #: ct-mortgage-calculator.php:60
-msgid "Your Monthly Payment"
+#: ct-mortgage-calculator.php:103
+msgid "Calculate"
 msgstr ""
 
-#: ct-mortgage-calculator.php:77
+#: ct-mortgage-calculator.php:61
+msgid "Monthly Payment:"
+msgstr ""
+
+#: ct-mortgage-calculator.php:79
 msgid "Title:"
+msgstr ""
+
+#: ct-mortgage-calculator.php:81
+msgid "Currency:"
+msgstr ""
+
+#: ct-mortgage-calculator.php:98
+msgid "Sale price ($)"
+msgstr ""
+
+#: ct-mortgage-calculator.php:101
+msgid "Down payment ($)"
+msgstr ""
+
+#: ct-mortgage-calculator.php:105
+msgid "Your Monthly Payment"
 msgstr ""
 

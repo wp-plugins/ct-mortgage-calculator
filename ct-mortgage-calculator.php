@@ -3,7 +3,7 @@
 Plugin Name: Contempo Mortgage Calculator Widget
 Plugin URI: http://contemporealestatethemes.com
 Description: A simple mortgage calculator widget
-Version: 1.0.3
+Version: 1.0.4
 Author: Chris Robinson
 Author URI: http://contemporealestatethemes.com
 */
@@ -58,8 +58,7 @@ class ct_MortgageCalculator extends WP_Widget {
                   <input type="text" name="mcDown" id="mcDown" class="text-input" placeholder="<?php _e('Down payment', 'contempo'); ?> (<?php echo $currency; ?>)" />
                   
                   <input class="btn marB10" type="submit" id="mortgageCalc" value="<?php _e('Calculate', 'contempo'); ?>" onclick="return false">
-                  <input class="btn reset marB10" type="button" value="Reset" onClick="this.form.reset()" />
-                  <input type="text" name="mcPayment" id="mcPayment" class="text-input" value="<?php _e('Your Monthly Payment', 'contempo'); ?>" />
+                  <p class="muted monthly-payment"><?php _e('Monthly Payment:', 'contempo'); ?> <strong><?php echo $currency; ?><span id="mcPayment"></span></strong></p>
                 </fieldset>
             </form>
 		

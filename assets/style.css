@@ -20,7 +20,7 @@
 	.widget_ct_mortgagecalculator input[type="text"] { border: 1px solid #ccc; padding: 6px 10px; outline: none; border-radius: 3px; color: #777; margin: 0 0 10px 0; width: 110px; max-width: 100%; display: block; background: #fff;}
 	.widget_ct_mortgagecalculator input[type="text"]:focus { border: 1px solid #aaa; color: #444; -moz-box-shadow: 0 0 3px rgba(0,0,0,.2); -webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);	box-shadow:  0 0 3px rgba(0,0,0,.2);}
 	.widget_ct_mortgagecalculator input[type="text"] { width: 88%;}
-		.widget_ct_mortgagecalculator input#mcPayment { background: #ffffe0;}
+		.widget_ct_mortgagecalculator p.muted { margin: 5px 0 0 0; padding: 10px 0 0 0; border-top: 1px solid #d5d9dd; color: #878c92;}
 
 /* ============================================================================== */
 /* Button Styles
