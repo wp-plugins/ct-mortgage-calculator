@@ -47,20 +47,23 @@ class ct_MortgageCalculator extends WP_Widget {
 	?>
 		<?php echo $before_widget; ?>
 		<?php if ($title) { echo $before_title . $title . $after_title; }
-			global $ct_options;
-		?>
+			global $ct_options; ?>
+
+			<?php echo '<div class="widget-inner">'; ?>
         
-            <form id="loanCalc">
-                <fieldset>
-                  <input type="text" name="mcPrice" id="mcPrice" class="text-input" placeholder="<?php _e('Sale price', 'contempo'); ?> (<?php echo $currency; ?>)" />
-                  <input type="text" name="mcRate" id="mcRate" class="text-input" placeholder="<?php _e('Interest Rate (%)', 'contempo'); ?>"/>
-                  <input type="text" name="mcTerm" id="mcTerm" class="text-input" placeholder="<?php _e('Term (years)', 'contempo'); ?>" />
-                  <input type="text" name="mcDown" id="mcDown" class="text-input" placeholder="<?php _e('Down payment', 'contempo'); ?> (<?php echo $currency; ?>)" />
-                  
-                  <input class="btn marB10" type="submit" id="mortgageCalc" value="<?php _e('Calculate', 'contempo'); ?>" onclick="return false">
-                  <p class="muted monthly-payment"><?php _e('Monthly Payment:', 'contempo'); ?> <strong><?php echo $currency; ?><span id="mcPayment"></span></strong></p>
-                </fieldset>
-            </form>
+	            <form id="loanCalc">
+	                <fieldset>
+	                  <input type="text" name="mcPrice" id="mcPrice" class="text-input" placeholder="<?php _e('Sale price', 'contempo'); ?> (<?php echo $currency; ?>)" />
+	                  <input type="text" name="mcRate" id="mcRate" class="text-input" placeholder="<?php _e('Interest Rate (%)', 'contempo'); ?>"/>
+	                  <input type="text" name="mcTerm" id="mcTerm" class="text-input" placeholder="<?php _e('Term (years)', 'contempo'); ?>" />
+	                  <input type="text" name="mcDown" id="mcDown" class="text-input" placeholder="<?php _e('Down payment', 'contempo'); ?> (<?php echo $currency; ?>)" />
+	                  
+	                  <input class="btn marB10" type="submit" id="mortgageCalc" value="<?php _e('Calculate', 'contempo'); ?>" onclick="return false">
+	                  <p class="muted monthly-payment"><?php _e('Monthly Payment:', 'contempo'); ?> <strong><?php echo $currency; ?><span id="mcPayment"></span></strong></p>
+	                </fieldset>
+	            </form>
+
+            <?php echo '</div>'; ?>
 		
 		<?php echo $after_widget; ?>   
     <?php
