@@ -3,7 +3,7 @@
 Plugin Name: Contempo Mortgage Calculator Widget
 Plugin URI: http://contemporealestatethemes.com
 Description: A simple mortgage calculator widget
-Version: 1.0.5
+Version: 1.0.6
 Author: Chris Robinson
 Author URI: http://contemporealestatethemes.com
 */
