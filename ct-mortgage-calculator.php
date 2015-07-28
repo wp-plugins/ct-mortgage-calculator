@@ -9,6 +9,25 @@ Author URI: http://contemporealestatethemes.com
 */
 
 /*-----------------------------------------------------------------------------------*/
+/* Add meta links in Plugins table */
+/*-----------------------------------------------------------------------------------*/
+ 
+add_filter( 'plugin_row_meta', 'thsp_plugin_meta_links', 10, 2 );
+function thsp_plugin_meta_links( $links, $file ) {
+
+	$plugin = plugin_basename(__FILE__);
+	
+	// Create Link
+	if ( $file == $plugin ) {
+		return array_merge(
+			$links,
+			array( '<a href="http://twitter.com/contempoinc">Follow on Twitter</a>' )
+		);
+	}
+	return $links;
+}
+
+/*-----------------------------------------------------------------------------------*/
 /* Include CSS */
 /*-----------------------------------------------------------------------------------*/
  
