@@ -3,7 +3,7 @@
 Plugin Name: Contempo Mortgage Calculator Widget
 Plugin URI: http://contemporealestatethemes.com
 Description: A simple mortgage calculator widget
-Version: 1.0.7
+Version: 1.0.8
 Author: Chris Robinson
 Author URI: http://contemporealestatethemes.com
 */
@@ -53,7 +53,7 @@ class ct_MortgageCalculator extends WP_Widget {
 
 	function ct_MortgageCalculator() {
 	   $widget_ops = array('description' => 'Display a mortgage calculator.' );
-	   parent::WP_Widget(false, __('CT Mortgage Calculator', 'contempo'),$widget_ops);      
+	   parent::__construct(false, __('CT Mortgage Calculator', 'contempo'),$widget_ops);      
 	}
 
 	function widget($args, $instance) {  
@@ -95,6 +95,7 @@ class ct_MortgageCalculator extends WP_Widget {
    function form($instance) {
    
 			$title = isset( $instance['title'] ) ? esc_attr( $instance['title'] ) : '';
+			$currency = isset( $instance['currency'] ) ? esc_attr( $instance['currency'] ) : '';
 
 		?>
 		<p>
